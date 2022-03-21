@@ -22,23 +22,31 @@
 
 body {
     font-family: 'Overpass', cursive;
-    width: 100vw;
+    width: 98.5vw;
     height: 100vh;
     margin-bottom: 30px;
 }
 
+header {
+    margin-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
 header img {
-    display: block;
-    margin: auto;
-    text-align: center;
+    display: inline;
+    margin: 0px;
 }
 
 header nav {
     display: flex;
-    text-align: center;
     justify-content: space-around;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: -58px;
+    padding-left: 160px;
+    padding-right: 10px;
+    margin-bottom: 100px;
+    width: 70vw;
+    font-weight: bolder;
 }
 
 header a {
@@ -49,10 +57,7 @@ header a {
 }
 
 header a:hover {
-    background-color: #fade633b;
-    border-radius: 10px;
-    padding: 6px;
-    transition-duration: 0.3s;
+    text-decoration: underline;
 }
 
 main {
@@ -136,4 +141,27 @@ main section#service {
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    padding-bottom: 5px;
+}
+
+
+#social {
+    display: inline-block;
+    float: right;
+}
+
+#contact {
+    display: inline-block;
+}
+
+footer p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
 }
