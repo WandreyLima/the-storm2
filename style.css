@@ -18,7 +18,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    position: relative;
 }
 
 body {
@@ -43,7 +42,6 @@ header img {
     display: inline;
     text-align: left;
     width: 100px;
-    position: sticky;
 }
 
 header nav {
