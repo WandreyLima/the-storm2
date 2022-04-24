@@ -24,18 +24,16 @@ body {
     font-family: 'Overpass', cursive;
     width: 100vw;
     height: 100vh;
-    margin: center;
     margin-bottom: 30px;
 }
 
 header {
     display: flex;
     width: 100%;
-    max-width: 980px;
+    min-width: 720px;
     align-items: center;
-    background-color: #fade631d;
-    margin: auto;
-    padding-left: 110px;
+    justify-content: center;
+    background-color: black;
 }
 
 header img {
@@ -56,13 +54,12 @@ header nav {
 header a {
     text-decoration: none;
     font-family: var(--font-principal);
-    color: var(--color2);
+    color: white;
     font-size: large;
 }
 
 header a:hover {
-    background-color: #fade633b;
-    border-radius: 5px;
+    text-decoration: underline;
 }
 
 main {
