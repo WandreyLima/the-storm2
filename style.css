@@ -127,7 +127,7 @@ main {
 
 main h1, h2 {
     text-align: center;
-    color: var(--color2);
+    color: black;
     font-family: var(--font-destaque);
     font-weight: lighter;
     margin: 30px 0px;
@@ -143,4 +143,27 @@ main section#service {
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
+}
+
+footer {
+    width: 100%;
+    min-width: 720px;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+#social {
+    text-align: right;
+    padding-right: 30px;
+}
+
+#contact {
+    margin-top: -64px;
+    text-align: center;
+}
+
+footer p {
+    font-size: small;
+    text-align: center;
 }
