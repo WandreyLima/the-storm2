@@ -17,20 +17,24 @@
 
 * {
     margin: 0px;
-    padding: 0px;
+    padding: 0px;   
+}
+
+html {
+    font-size: 62.5%;
 }
 
 body {
     font-family: 'Overpass', cursive;
     width: 100vw;
     height: 100vh;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 header {
     display: flex;
     width: 100%;
-    min-width: 720px;
+    min-width: 72rem;
     align-items: center;
     justify-content: center;
     background-color: black;
@@ -39,7 +43,7 @@ header {
 header img {
     display: inline;
     text-align: left;
-    width: 100px;
+    width: 10rem;
 }
 
 header nav {
@@ -47,7 +51,7 @@ header nav {
     text-align: center;
     justify-content: space-around;
     width: 100%;
-    max-width: 740px;
+    max-width: 74rem;
 
 }
 
@@ -69,10 +73,10 @@ main {
 
 .slider {
     display: block;
-    height: 500px;
-    width: 500px;
+    height: 50rem;
+    width: 50rem;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 2rem;
     position: relative;
 }
 
@@ -96,25 +100,25 @@ main {
 
 .slider label {
     background-color: black;
-    bottom: 10px;
+    bottom: 1rem;
     cursor: pointer;
     display: block;
-    height: 10px;
+    height: 1rem;
     position: absolute;
-    width: 10px;
-    z-index: 10;
+    width: 1rem;
+    z-index: 1rem;
 }
 
 .slider li:nth-child(1) label {
-    left: 10px;
+    left: 1rem;
 }
 
 .slider li:nth-child(2) label {
-        left: 40px;
+        left: 4rem;
 }
 
 .slider li:nth-child(3) label {
-    left: 70px;
+    left: 7rem;
 }
 
 .slider li input:checked ~ img {
@@ -130,11 +134,13 @@ main h1, h2 {
     color: black;
     font-family: var(--font-destaque);
     font-weight: lighter;
-    margin: 30px 0px;
+    margin: 3rem 0rem;
+    font-size: 2.6rem;
 }
 
 main p {
     text-align: justify;
+    font-size: 1.6rem;
 }
 
 main section#service {
@@ -142,28 +148,41 @@ main section#service {
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
 footer {
+    height: 18rem;
     width: 100%;
-    min-width: 720px;
+    min-width: 72rem;
     background-color: black;
     color: white;
     margin: auto;
+    font-size: 1.6rem;
 }
 
 #social {
     text-align: right;
-    padding-right: 30px;
+    padding-right: 29rem;
 }
 
 #contact {
-    margin-top: -64px;
+    display: flex;
+    margin-top: -6.4rem;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    /* ajeitar aqui */
 }
 
-footer p {
+#contact > p {
+    display: inline-block;
+}
+
+#credito {
     font-size: small;
     text-align: center;
+    padding-top: 8.9rem;
 }
