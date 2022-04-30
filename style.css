@@ -174,15 +174,21 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     width: 300px;
+    padding-left: 12rem;
     /* ajeitar aqui */
 }
 
+#contact > h3 {
+    width: 100%;
+}
+
 #contact > p {
-    display: inline-block;
+    width: 80%;
 }
 
 #credito {
     font-size: small;
     text-align: center;
     padding-top: 8.9rem;
+    background-color: black;
 }
