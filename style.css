@@ -18,6 +18,7 @@
 * {
     margin: 0px;
     padding: 0px;   
+    box-sizing: border-box;
 }
 
 html {
@@ -35,6 +36,7 @@ header {
     display: flex;
     width: 100%;
     min-width: 72rem;
+    height: 15%;
     align-items: center;
     justify-content: center;
     background-color: black;
@@ -152,43 +154,70 @@ main section#service {
 }
 
 footer {
-    height: 18rem;
-    width: 100%;
-    min-width: 72rem;
+    width: 100vw;
     background-color: black;
     color: white;
-    margin: auto;
     font-size: 1.6rem;
+    display: grid;
+    
 }
 
-#social {
-    text-align: right;
-    padding-right: 29rem;
+.media {
+    display: grid;
+    width: 80vw;
+    justify-self: center;
+    grid-template-columns: auto auto;
 }
 
-#contact {
-    display: flex;
-    margin-top: -6.4rem;
-    text-align: center;
+ .social {
+    padding: 1rem;
+    display: grid;
+    align-content: start;
+    justify-content: center;
+    justify-items: end;
+}
+
+.social img {
+    grid-row: 2;
+}
+
+.social h3 {
+    grid-column: 1/3;
+}
+
+.contact {
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    width: 300px;
-    padding-left: 12rem;
-    /* ajeitar aqui */
+    
 }
 
-#contact > h3 {
+.contact h3{
+    justify-self: center;
+    grid-column: 1/-1;
+}
+
+.contact p{
+    grid-column: 2/3;
+    padding-left: 0.5rem;
+}
+/*
+.contact > h3 {
     width: 100%;
 }
 
-#contact > p {
+.contact > p {
     width: 80%;
 }
-
-#credito {
+*/
+.credito {
+    grid-row: 2;
+    grid-column: 1/-1;
     font-size: small;
     text-align: center;
     padding-top: 8.9rem;
     background-color: black;
-}
+} 
