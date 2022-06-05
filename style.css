@@ -204,20 +204,12 @@ footer {
     grid-column: 2/3;
     padding-left: 0.5rem;
 }
-/*
-.contact > h3 {
-    width: 100%;
-}
 
-.contact > p {
-    width: 80%;
-}
-*/
 .credito {
     grid-row: 2;
     grid-column: 1/-1;
     font-size: small;
     text-align: center;
-    padding-top: 8.9rem;
+    padding-top: 2rem;
     background-color: black;
 } 
