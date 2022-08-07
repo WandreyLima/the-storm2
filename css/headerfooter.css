@@ -1,0 +1,27 @@
+@charset "UFT-8";
+
+.header-bg {
+    background-color: var(--black-0);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.header-menu a {
+    padding: 8px;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+}
+
+.header-menu a:hover {
+    background-color: var(--white-1);
+    color: var(--black-2);
+}
