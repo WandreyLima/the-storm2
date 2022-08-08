@@ -1,27 +1,39 @@
 @charset "UFT-8";
 
 .header-bg {
-    background-color: var(--black-0);
+  background-color: var(--black-0);
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
 }
 
 .header-menu {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 .header-menu a {
-    padding: 8px;
-    border-radius: 4px;
-    transition-duration: 0.3s;
+  padding: 8px;
+  border-radius: 4px;
+  transition-duration: 0.3s;
 }
 
 .header-menu a:hover {
-    background-color: var(--white-1);
-    color: var(--black-2);
+  background-color: var(--white-1);
+  color: var(--black-2);
+}
+
+@media (max-width: 500px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header-menu {
+    gap: 20px;
+  }
 }
