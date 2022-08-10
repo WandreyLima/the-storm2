@@ -30,6 +30,15 @@
   line-height: 2;
 }
 
+.sobre-conteudo ul li::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(to right, var(--orange-0), var(--yellow-4));
+  margin: 0px 6px 4px 0px;
+}
+
 .sobre-imagem {
   grid-column: 2;
 }
