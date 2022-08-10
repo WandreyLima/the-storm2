@@ -8,4 +8,7 @@
 /* Header e Footer */
 @import url(css/headerfooter.css);
 
-@import url(css/introducao.css);
+
+/* Páginas */
+@import url(css/paginas/introducao.css);
+@import url(css/paginas/sobre.css);
