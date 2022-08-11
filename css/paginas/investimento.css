@@ -1,0 +1,17 @@
+@charset "UFT-8";
+
+.investimento-bg {
+    padding-top: 40px;
+}
+
+.investimento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.investimento-preco {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

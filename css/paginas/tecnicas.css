@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  padding-top: 40px;
 }
 
 .tecnicas-conteudo {
@@ -44,4 +45,26 @@
   height: 8px;
   background: linear-gradient(to right, var(--orange-0), var(--yellow-4));
   margin: 0px 6px 4px 0px;
+}
+
+
+@media (max-width:800px) {
+  .tecnicas-bg {
+    box-shadow: inset 0px -50px white;
+    padding-top: 32px;
+  }
+
+  .tecnicas {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .tecnicas-conteudo {
+    padding-bottom: 0;
+  }
+
+  .tecnicas-conteudo h1,
+  .tecnicas-conteudo p {
+    margin-bottom: 16px;
+  }
 }

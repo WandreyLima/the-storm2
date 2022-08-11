@@ -42,3 +42,28 @@
 .sobre-imagem {
   grid-column: 2;
 }
+
+@media (max-width: 800px) {
+  .sobre-bg {
+    padding-top: 40px;
+    box-shadow: inset 0px -50px 0px black;
+  }
+
+  .sobre {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .sobre h1 {
+    margin-bottom: 0px;
+  }
+
+  .sobre-conteudo {
+    grid-column: 1;
+    padding-bottom: 0px;
+  }
+
+  .sobre-conteudo p {
+    margin-bottom: 16px;
+  }
+}
