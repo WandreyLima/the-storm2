@@ -7,3 +7,18 @@
     box-sizing: border-box;
     margin: auto;
 }
+
+.botao {
+    display: inline-block;
+    padding: 16px 32px;
+    background-image: linear-gradient(var(--yellow-4), #f2a50c);
+    color: var(--yellow-0);
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(#ffb60d, #e59317);
+  }
