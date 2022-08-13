@@ -1,0 +1,30 @@
+@charset "UFT-8";
+
+.patrocinio-bg {
+  background-color: var(--black-0);
+  padding: 80px 0 80px 0 ;
+}
+
+.patrocinio h1 {
+  margin-bottom: 32px;
+}
+
+.patrocinio ul {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 100px 0px 100px 0px;
+}
+
+@media (max-width: 800px) {
+  .patrocinio-bg {
+    padding-bottom: 40px;
+  }
+  .patrocinio h1 {
+    margin-bottom: 16px;
+  }
+
+  .patrocinio ul {
+    padding: 20px 0px 20px 0px;
+  }
+}

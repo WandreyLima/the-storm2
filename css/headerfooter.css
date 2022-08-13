@@ -73,11 +73,11 @@
   margin-bottom: 16px;
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .footer {
-   grid-template-columns: 1fr  1fr;
-   justify-items: center;
-}
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
   .footer > a {
     display: none;
   }
