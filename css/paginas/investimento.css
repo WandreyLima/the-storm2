@@ -55,6 +55,11 @@
 
 .investimento-cancelamento li {
   margin-bottom: 16px;
+  display: flex;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
 }
 
 .investimento-cancelamento li:nth-child(-n + 3):before {
@@ -63,7 +68,6 @@
   width: 8px;
   height: 8px;
   background: linear-gradient(to right, var(--orange-0), var(--yellow-4));
-  margin: 0px 6px 4px 0px;
 }
 
 .investimento-cancelamento li:nth-child(4) {
@@ -78,5 +82,14 @@
   }
   .investimento {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .investimento-cancelamento ul {
+    font-size: 1.5rem;
+  }
+  .investimento-cancelamento li {
+    gap: 6px;
   }
 }
