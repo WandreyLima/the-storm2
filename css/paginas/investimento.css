@@ -95,3 +95,9 @@
     gap: 6px;
   }
 }
+
+@media (max-width: 400px) {
+  .investimento-cancelamento ul {
+    font-size: 1.4rem;
+  }
+}
